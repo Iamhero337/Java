@@ -5,7 +5,7 @@ public class inputs{
         Scanner sc = new  Scanner(System.in);
         System.out.print("Give the name: ");
 
-        String name = sc.nextline();
+        String name = sc.nextLine();
         
         System.out.println("The given name is: " + name);
 
