@@ -12,8 +12,9 @@ public class gstadd {
         float eraser = sc.nextFloat();
 
         float total = pencil + pen + eraser;
-        float gst = total * 18/100;
-        float fprice = total + gst;
+        // float gst = total * 18/100; this logic not better then the implemented one.
+
+        float fprice = total + (0.18f * total);
 
         System.out.println("The total cost is: " + total);
         System.out.print("The price with gst is: " + fprice);

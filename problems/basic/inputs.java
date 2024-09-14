@@ -13,6 +13,12 @@ public class inputs{
 
         System.out.println(t_f);
 
+        // int $ = 24;
+        // this is a valid identifier as java allows the any
+        // alphabet or underscore or $
+
+        // System.out.print($);
+
     }
 
 }
