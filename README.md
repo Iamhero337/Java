@@ -1,2 +1,2 @@
 # Java
-Everything related to java will be  here
+Everything related to Java will be  here.
