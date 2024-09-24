@@ -31,6 +31,14 @@ public class DataTypeInput {
         // Boolean input
         System.out.print("Enter a boolean value (true/false): ");
         boolean boolValue = sc.nextBoolean();
+        
+          // Extremely large BigDecimal
+        BigDecimal bigDecimal = new BigDecimal("12345678901234567890123456789012345678901234567890.12345678901234567890");
+       
+
+        // Extremely large BigInteger
+        BigInteger bigInteger = new BigInteger("123456789012345678901234567890123456789012345678901234567890");
+        
 
         // Printing the inputs
         System.out.println("\nYou entered:");
@@ -40,6 +48,11 @@ public class DataTypeInput {
         System.out.println("Character: " + charValue);
         System.out.println("String: " + stringValue);
         System.out.println("Boolean: " + boolValue);
+        System.out.println("BigDecimal: " + bigDecimal);
+        System.out.println("BigInteger: " + bigInteger);
+
+        
+
     }
 }
 
