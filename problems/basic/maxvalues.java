@@ -1,5 +1,5 @@
-public class doublemaxvalue{
-    public static void main(String args[]) {
+public class maxvalues {
+    public static void main(String[] args) {
        // Accessing the maximum value for byte
         Byte maxByte = Byte.MAX_VALUE;
         System.out.println("The max of Byte data type: " + maxByte);

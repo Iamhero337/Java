@@ -1,6 +1,9 @@
 import java.util.Scanner;
+import java.math.BigDecimal;  // Import BigDecimal
+import java.math.BigInteger;  // Import BigInteger
 
-public class DataTypeInput {
+
+public class inputs {
     public static void main(String[] args) {
         // Create a Scanner object to read input
         Scanner sc = new Scanner(System.in);

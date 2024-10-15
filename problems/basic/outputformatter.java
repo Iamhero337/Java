@@ -32,7 +32,7 @@ Each String is left-justified with trailing whitespace through the first 15 char
 
 import java.util.Scanner;
 
-public class Solution {
+public class outputformatter {
 
     public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
